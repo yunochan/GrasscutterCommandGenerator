@@ -71,12 +71,6 @@ namespace GrasscutterTools
             if (result != -1)
                 return result;
 
-            // 开启高DPI支持
-            if (Environment.OSVersion.Version.Major >= 6) // 至少需要Vista系统
-            {
-               HighDPIUtil.SetDpiAwareness();
-            }
-
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
