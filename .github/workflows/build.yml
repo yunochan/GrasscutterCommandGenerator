@@ -15,7 +15,8 @@ on:
     - main
     paths:
     - Source/**
-
+  workflow_dispatch:
+  
 jobs:
   build:
     runs-on: windows-latest
